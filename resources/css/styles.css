@@ -1,0 +1,120 @@
+/* Universal Styles*/ -->  
+
+html,
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    height: 69px;
+}
+
+#logo {
+    height: 50px; 
+    padding: 0 10px;
+}
+
+/* Nav */
+
+nav li{
+    text-decoration: underline;
+    display: inline;
+}
+
+nav a {
+    color: seashell;
+}
+/* -------------------- happy to here ---------------------- */
+
+/* Mission Section */
+
+main {
+    display: block;
+    text-align: center;
+}
+
+#mission {
+    display: inline-flex;
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+}
+
+.banner {
+    
+    
+}
+
+/* Featured Section */
+
+.featured-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image-panel {
+ 
+}
+
+figure {
+
+}
+
+figcaption {
+
+}
+
+
+/* Location Section */
+
+#locations {
+    display: block;
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+}
+
+#locations h2 {
+    margin-bottom: 0;
+}
+.locations-container {
+    display: inline-flex;
+}
+
+.location-panel {
+    margin: 15px 40px;
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+}
+
+/* -------------------- happy from here ---------------------- */
+
+/* Contact Details Section */
+
+#contact-details {
+    height: 200px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 0 20px;
+    text-align: left;
+}
