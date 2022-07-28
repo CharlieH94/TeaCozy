@@ -43,8 +43,7 @@ nav a {
 /* Mission Section */
 
 main {
-    display: block;
-    text-align: center;
+
 }
 
 #mission {
@@ -62,13 +61,13 @@ main {
 /* Featured Section */
 
 .featured-container {
-    display: flex;
-    flex-wrap: wrap;
+    width: 1000px;
 }
 
 
 .image-panel {
- 
+    height: 200px;
+    width: 300px;
 }
 
 figure {
