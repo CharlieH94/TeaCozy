@@ -41,7 +41,7 @@ nav ul {
 
 nav li{
     text-decoration: underline;
-    display: inline;
+    display: inline-flex;
     padding: 10px;
 }
 
@@ -51,12 +51,20 @@ nav a {
 
 /* Mission Section */
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 #mission {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     background-image: url(../images/img-mission-background.jpg);
     height: 700px;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     padding: 0;
     margin :auto;
 }
@@ -79,6 +87,10 @@ nav a {
 /* Featured Section */
 
 #featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     margin: auto;
 }
 
@@ -88,9 +100,8 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin :auto;
-    padding-bottom: 80px
-    
+    margin: auto;
+    padding-bottom: 80px;
 }
 
 .banner.featured h2 {
@@ -132,10 +143,10 @@ figcaption {
     align-content: center;
     flex-wrap: wrap;
     background-image: url(../images/img-locations-background.jpg);
-    height: 500px;
-    width: 1200px;
+    min-height: 500px;
+    width: 100%;
+    max-width: 1200px;
     margin :auto;
-    
 }
 
 #locations h2 {
@@ -143,16 +154,24 @@ figcaption {
     margin: 0;
 }
 .locations-container {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
-  
+}
+
+.featured-container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin :auto;
+    padding-bottom: 80px;
 }
 
 .location-panel {
-    display: inline-flex;
-    justify-content: space-around;
-    flex-flow: column wrap;
+    display: flex;
+    flex-direction: column;
     margin: 0 20px;
     padding: 25px 0 0 0;
     opacity: 1;
@@ -164,11 +183,11 @@ figcaption {
     margin: 0 0 35px 0;
 }
 
-/* -------------------- happy from here ---------------------- */
-
 /* Contact Details Section */
 
 #contact-details {
+    display: flex;
+    flex-direction: column;
     height: 200px;
     margin: auto;
 }
@@ -178,10 +197,14 @@ figcaption {
     padding: 10px;
 }
 
+#contact-details h5 {
+    margin-top: 0;
+}
 
 /* Footer */
 
 footer {
+    display: flex;
     padding: 0 20px;
     text-align: left;
 }
