@@ -72,6 +72,10 @@ nav a {
 
 /* Featured Section */
 
+#featured {
+    margin: auto;
+}
+
 .featured-container {
     max-width: 1000px;
     display: flex;
@@ -159,6 +163,7 @@ figcaption {
 
 #contact-details {
     height: 200px;
+    margin: auto;
 }
 
 #contact-details h2 {
