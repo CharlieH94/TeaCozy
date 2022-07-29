@@ -155,6 +155,8 @@ figcaption {
 }
 .locations-container {
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
     margin-top: 15px;
 }
