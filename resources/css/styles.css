@@ -62,20 +62,25 @@ main {
 
 .featured-container {
     width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .image-panel {
-    height: 200px;
-    width: 300px;
+
 }
 
-figure {
-
+figure img {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 0;
 }
 
 figcaption {
-
+    margin-top: 0;
+    padding: 10px;
 }
 
 
