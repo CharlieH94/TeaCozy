@@ -1,4 +1,4 @@
-/* Universal Styles*/ -->  
+/* Universal Styles*/  
 
 html,
 body {
@@ -15,96 +15,145 @@ body {
 /* Header */
 
 header {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid seashell;
     width: 100%;
-    align-items: center;
-    height: 69px;
+    position: fixed;
+    top: 0;
+    background-color: black;
 }
 
 #logo {
     height: 50px; 
-    padding: 0 10px;
+    padding: 10px;
 }
 
 /* Nav */
 
+nav {
+    padding: 0 10px;
+}
+
 nav li{
     text-decoration: underline;
     display: inline;
+    padding: 10px;
 }
 
 nav a {
     color: seashell;
 }
-/* -------------------- happy to here ---------------------- */
 
 /* Mission Section */
 
-main {
-
-}
-
 #mission {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     background-image: url(../images/img-mission-background.jpg);
     height: 700px;
     width: 1200px;
+    padding: 0;
+    margin :auto;
 }
 
 .banner {
-    
-    
+    width: 100%;
+    background-color: black;
+}
+
+.banner.mission h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.banner.mission h4 {
+    margin:0;
+    padding: 10px;
 }
 
 /* Featured Section */
 
 .featured-container {
-    width: 1000px;
-    display: inline-flex;
+    max-width: 1000px;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    margin :auto;
+    padding-bottom: 80px
+    
 }
 
+.banner.featured h2 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.banner.featured h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 
 .image-panel {
+    padding: 0;
+    margin: 15px;
+}
 
+figure {
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 figure img {
     height: 200px;
     width: 300px;
-    padding-bottom: 0;
 }
 
 figcaption {
-    margin-top: 0;
-    padding: 10px;
+    padding-bottom: auto;
+    font-weight: bold;
 }
 
 
 /* Location Section */
 
 #locations {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     background-image: url(../images/img-locations-background.jpg);
     height: 500px;
     width: 1200px;
+    margin :auto;
+    
 }
 
 #locations h2 {
-    margin-bottom: 0;
+    padding: 0 30px;
+    margin: 0;
 }
 .locations-container {
     display: inline-flex;
+    margin-top: 15px;
+  
 }
 
 .location-panel {
-    margin: 15px 40px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    margin: 0 20px;
+    padding: 25px 0 0 0;
     opacity: 1;
     width: 300px;
     background-color: black;
+}
+
+.location-panel * {
+    margin: 0 0 35px 0;
 }
 
 /* -------------------- happy from here ---------------------- */
@@ -113,6 +162,11 @@ figcaption {
 
 #contact-details {
     height: 200px;
+}
+
+#contact-details h2 {
+    margin-top: 0;
+    padding: 10px;
 }
 
 
