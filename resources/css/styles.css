@@ -14,7 +14,10 @@ body {
 
 /* Header */
 
-header {
+/* Nav */
+
+nav {
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,12 +31,6 @@ header {
 #logo {
     height: 50px; 
     padding: 10px;
-}
-
-/* Nav */
-
-nav {
-    padding: 0 10px;
 }
 
 nav li{
