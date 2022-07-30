@@ -39,6 +39,7 @@ nav {
 nav ul {
     padding-right: 10px;
     margin: 0;
+    display: flex;
 }
 
 nav li{
